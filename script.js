@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { url: 'photos/27-aku-cayang-banget-ama-kamuu.jpg', caption: 'aku cayang banget ama kamuu' },
         { url: 'photos/28-poto-paporit-oyongg.jpg', caption: 'poto paporit oyongg' },
         { url: 'photos/29-maen-hp-aja-cakepp-cooo.jpg', caption: 'maen hp aja cakepp cooo' },
-        { url: 'photos/30-foto-terakhir.jpg', caption: 'foto terakhir', isSpecial: true }
+        { url: 'photos/30-foto-terakhir.jpg', caption: 'Happy Palenten Coyong ❤️, hehe', isSpecial: true }
     ];
 
     // Create and position photos
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             xPos = 0; yPos = 0; rotation = 0;
         }
 
-        frame.style.transform = `translate3d(${xPos}px, ${yPos}px, ${zPos}px) rotate(${rotation}deg)`;
+        frame.style.transform = `translate3d(${xPos}px, ${yPos}px, ${zPos}px) translate(-50%, -50%) rotate(${rotation}deg)`;
 
         // Handle image loading errors (especially for HEIC)
         const img = new Image();
